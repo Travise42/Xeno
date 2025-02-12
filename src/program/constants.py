@@ -1,0 +1,51 @@
+PALETTE_BACKGROUND = (10, 20, 30)
+PALETTE_HIGHLIGHT = (70, 245, 245)
+PALETTE_SHADOW = (0, 5, 10)
+PALETTE_CONTRAST = (70, 80, 80)
+PALETTE_ERROR = (200, 50, 70)
+
+DIMENSION_LEFT_PANEL = 0.25
+DIMENSION_RIGHT_PANEL = 0.66
+
+SCREEN_MAIN = 0
+SCREEN_MARK = 1
+SCREEN_STAT = 2
+
+ID = 'travi.connor.0.1'
+WIDTH, HEIGHT = 1000, 600
+FPS = 60
+
+DIR_DATA = "src/data/data.json"
+DIR_BACKUP = "src/data/data.old.json"
+DIR_MONSTER_DATA = "src/data/monster_data.json"
+
+# String
+VAR_MONSTER_NAME = 0
+# String
+VAR_AC_MIN = 1
+# String
+VAR_AC_MAX = 2
+# Boolean
+VAR_MONSTER_MOVED = 3
+# Integer
+VAR_DAMAGE_TOTAL = 4
+# Boolean
+VAR_MONSTER_MARKED = 5
+# Integer
+VAR_DAMAGE_CHANGE = 6
+
+# String
+VAR_RESISTANCES = 7
+# String
+VAR_IMMUNITIES = 8
+# String
+VAR_WEAKNESSES = 9
+
+# Integer
+VAR_GLOBAL_MARKS = 10
+# Boolean
+VAR_GLOBAL_MOVED = 11
+# Integer
+VAR_GLOBAL_LOADED = 12
+# Integer
+VAR_GLOBAL_SHIELD = 13
